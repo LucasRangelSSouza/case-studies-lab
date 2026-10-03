@@ -9,10 +9,16 @@ Synthetic data and runnable code behind a series of articles about client projec
 | `endpoint_monitoring/` | How to monitor ML models in production | Two days of synthetic traffic with planted incidents; alert rules as JSON, evaluated minute by minute |
 | `grocery_two_stage/` | A two-stage recommender for grocery e-commerce | Synthetic grocery orders; SKU ranking against type-then-variant, recency weighting, the batch JSON contract |
 | `framework_test/` | CrewAI vs Agno vs AutoGen: which one for a chat product? | The five-question protocol, a synthetic HR table and a grader; the measured results from the project |
+| `interchangeable_parts/` | How to find interchangeable parts with AI search | A messy synthetic parts catalogue; text similarity against extract, filter and rank |
 | `grounded_finance/` | How to stop AI agents from inventing numbers | A synthetic income statement and 24 questions, asked two ways to an OpenAI-compatible model |
+| `backlog_forecast/` | Will we hit the target this month? Forecasting with AI agents | Synthetic service orders; activation probability by product and age, Monte Carlo against a revenue target |
+| `pricing_pipeline/` | When only one of your AI agents needs an LLM | Synthetic invoices and price versions; the as-of join against the latest-price shortcut |
+| `a11y_agentic/` | Fixing accessibility issues with AI agents | Three weeks of synthetic daily scans; ticket dedupe by fingerprint, repository lookup from manifests |
+| `tenant_isolation/` | Multi-tenant AI on AWS: keeping each client isolated | Per-tenant IAM policies generated from one list, and a check of every role against every resource |
+| `legacy_migration/` | Migrating legacy code with spec-driven AI | A COBOL payroll rule, its oracle, and four turns of the translate-validate loop |
 
 Each folder has a `figures.py` that regenerates the article's figures: `python <folder>/figures.py <output_dir>`.
 
-Requirements: Python 3.11, `numpy`, `matplotlib`, `scikit-learn` (stockpile only).
+Requirements: Python 3.11, `numpy`, `matplotlib`, `scikit-learn` (stockpile and parts only).
 
 The articles are on [lucas.rangeltech.net/articles](https://lucas.rangeltech.net/articles).
