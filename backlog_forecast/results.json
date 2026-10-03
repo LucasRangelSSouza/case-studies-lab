@@ -1,0 +1,187 @@
+{
+ "wip_orders": 900,
+ "wip_revenue": 3574.9,
+ "expected": 921.3,
+ "p10": 828.9,
+ "p90": 1013.1,
+ "p_hit_target": 0.134,
+ "target": 1000.0,
+ "expected_by_product": {
+  "Cross-Connect": 175.2,
+  "Cloud Connect": 112.6,
+  "Broadband": 66.5,
+  "Ethernet": 214.3,
+  "IP/MPLS": 133.1,
+  "Dark Fiber": 92.2,
+  "Wavelength": 128.4
+ },
+ "wip_needed": [
+  {
+   "wip_orders": 720,
+   "expected": 737.012761164251,
+   "p_hit": 0.0
+  },
+  {
+   "wip_orders": 765,
+   "expected": 783.0760587370166,
+   "p_hit": 0.00025
+  },
+  {
+   "wip_orders": 810,
+   "expected": 829.1393563097822,
+   "p_hit": 0.007
+  },
+  {
+   "wip_orders": 855,
+   "expected": 875.202653882548,
+   "p_hit": 0.04
+  },
+  {
+   "wip_orders": 900,
+   "expected": 921.2659514553136,
+   "p_hit": 0.14075
+  },
+  {
+   "wip_orders": 945,
+   "expected": 967.3292490280793,
+   "p_hit": 0.336
+  },
+  {
+   "wip_orders": 990,
+   "expected": 1013.3925466008451,
+   "p_hit": 0.5655
+  },
+  {
+   "wip_orders": 1035,
+   "expected": 1059.4558441736108,
+   "p_hit": 0.7705
+  },
+  {
+   "wip_orders": 1080,
+   "expected": 1105.5191417463766,
+   "p_hit": 0.89325
+  },
+  {
+   "wip_orders": 1125,
+   "expected": 1151.582439319142,
+   "p_hit": 0.95725
+  },
+  {
+   "wip_orders": 1170,
+   "expected": 1197.6457368919077,
+   "p_hit": 0.989
+  },
+  {
+   "wip_orders": 1215,
+   "expected": 1243.7090344646736,
+   "p_hit": 0.9955
+  },
+  {
+   "wip_orders": 1260,
+   "expected": 1289.7723320374391,
+   "p_hit": 0.9995
+  },
+  {
+   "wip_orders": 1305,
+   "expected": 1335.835629610205,
+   "p_hit": 0.99975
+  },
+  {
+   "wip_orders": 1350,
+   "expected": 1381.8989271829705,
+   "p_hit": 1.0
+  },
+  {
+   "wip_orders": 1395,
+   "expected": 1427.962224755736,
+   "p_hit": 1.0
+  },
+  {
+   "wip_orders": 1440,
+   "expected": 1474.025522328502,
+   "p_hit": 1.0
+  }
+ ],
+ "top10_priority": [
+  {
+   "product": "Wavelength",
+   "country": "AR",
+   "age": 163.6,
+   "revenue": 5.3,
+   "p_activate_30d": 0.11,
+   "score": 0.995
+  },
+  {
+   "product": "Dark Fiber",
+   "country": "BR",
+   "age": 178.5,
+   "revenue": 9.9,
+   "p_activate_30d": 0.39,
+   "score": 0.978
+  },
+  {
+   "product": "Wavelength",
+   "country": "AR",
+   "age": 152.2,
+   "revenue": 15.1,
+   "p_activate_30d": 0.24,
+   "score": 0.96
+  },
+  {
+   "product": "Wavelength",
+   "country": "CO",
+   "age": 189.0,
+   "revenue": 7.2,
+   "p_activate_30d": 0.3,
+   "score": 0.949
+  },
+  {
+   "product": "IP/MPLS",
+   "country": "BR",
+   "age": 103.6,
+   "revenue": 2.6,
+   "p_activate_30d": 0.47,
+   "score": 0.931
+  },
+  {
+   "product": "IP/MPLS",
+   "country": "BR",
+   "age": 123.2,
+   "revenue": 4.8,
+   "p_activate_30d": 0.6,
+   "score": 0.931
+  },
+  {
+   "product": "Dark Fiber",
+   "country": "CO",
+   "age": 236.9,
+   "revenue": 6.4,
+   "p_activate_30d": 0.34,
+   "score": 0.927
+  },
+  {
+   "product": "IP/MPLS",
+   "country": "AR",
+   "age": 245.3,
+   "revenue": 7.9,
+   "p_activate_30d": 0.42,
+   "score": 0.926
+  },
+  {
+   "product": "IP/MPLS",
+   "country": "AR",
+   "age": 178.9,
+   "revenue": 4.3,
+   "p_activate_30d": 0.54,
+   "score": 0.926
+  },
+  {
+   "product": "Ethernet",
+   "country": "BR",
+   "age": 99.1,
+   "revenue": 4.8,
+   "p_activate_30d": 0.44,
+   "score": 0.92
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "lines": 1992,
+ "first_run": {
+  "paused": true,
+  "reason": "SKUs not in the mapping",
+  "skus": [
+   "SUG-ORGANIC-25"
+  ]
+ },
+ "after_mapping_fix": {
+  "paused": false
+ },
+ "truly_below_suggestion": 299,
+ "asof": {
+  "flagged": 299,
+  "false_alarms": 0,
+  "missed": 0,
+  "top5": [
+   [
+    "C001",
+    132682.93
+   ],
+   [
+    "C004",
+    106939.12
+   ],
+   [
+    "C003",
+    13879.52
+   ],
+   [
+    "C005",
+    7470.52
+   ],
+   [
+    "C000",
+    7341.19
+   ]
+  ]
+ },
+ "latest": {
+  "flagged": 873,
+  "false_alarms": 679,
+  "missed": 105,
+  "top5": [
+   [
+    "C001",
+    194441.9
+   ],
+   [
+    "C004",
+    191895.2
+   ],
+   [
+    "C000",
+    117769.96
+   ],
+   [
+    "C005",
+    113422.26
+   ],
+   [
+    "C003",
+    105309.58
+   ]
+  ]
+ },
+ "steps_that_need_an_llm": [
+  "market"
+ ]
+}

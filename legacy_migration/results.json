@@ -1,0 +1,54 @@
+{
+ "employees": 20000,
+ "turns": [
+  {
+   "turn": "1: float",
+   "mismatches_by_field": {
+    "overtime": 3374,
+    "gross": 3430,
+    "inss": 10262,
+    "net": 7701
+   },
+   "max_abs_cents": 1,
+   "net_total_cents": -6749
+  },
+  {
+   "turn": "2: Decimal, default rounding",
+   "mismatches_by_field": {
+    "overtime": 3433,
+    "gross": 3433,
+    "inss": 10247,
+    "net": 9570
+   },
+   "max_abs_cents": 1,
+   "net_total_cents": -6814
+  },
+  {
+   "turn": "3: Decimal, half up",
+   "mismatches_by_field": {
+    "overtime": 4298,
+    "gross": 4298,
+    "inss": 10511,
+    "net": 9559
+   },
+   "max_abs_cents": 1,
+   "net_total_cents": -6213
+  },
+  {
+   "turn": "4: truncate intermediates",
+   "mismatches_by_field": {
+    "overtime": 0,
+    "gross": 0,
+    "inss": 0,
+    "net": 0
+   },
+   "max_abs_cents": 0,
+   "net_total_cents": 0
+  }
+ ],
+ "spec_lessons": [
+  "Money and rates are Decimal, never float.",
+  "COBOL ROUNDED rounds half up; Python's default is half-even.",
+  "Every COMPUTE stores into a fixed-scale field: truncate intermediates unless the statement says ROUNDED."
+ ]
+}

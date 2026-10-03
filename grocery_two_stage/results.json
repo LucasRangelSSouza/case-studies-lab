@@ -1,0 +1,32 @@
+{
+ "item": {
+  "sku_hits": 2.94,
+  "type_hits": 3.551,
+  "distinct_types": 9.492,
+  "lists_with_same_type_twice": 0.402,
+  "duplicate_slots": 0.507,
+  "margin": 0.218,
+  "type_hits_changed_habits": 2.833,
+  "type_hits_stable": 4.046
+ },
+ "two_stage": {
+  "sku_hits": 3.115,
+  "type_hits": 3.939,
+  "distinct_types": 10.0,
+  "lists_with_same_type_twice": 0.0,
+  "duplicate_slots": 0.0,
+  "margin": 0.218,
+  "type_hits_changed_habits": 3.832,
+  "type_hits_stable": 4.014
+ },
+ "two_stage_no_recency": {
+  "sku_hits": 2.955,
+  "type_hits": 3.711,
+  "distinct_types": 10.0,
+  "lists_with_same_type_twice": 0.0,
+  "duplicate_slots": 0.0,
+  "margin": 0.218,
+  "type_hits_changed_habits": 2.972,
+  "type_hits_stable": 4.22
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "wildcard": {
+  "matrix": [
+   [
+    4,
+    2,
+    2,
+    2
+   ],
+   [
+    2,
+    4,
+    2,
+    2
+   ],
+   [
+    2,
+    2,
+    4,
+    2
+   ],
+   [
+    2,
+    2,
+    2,
+    4
+   ]
+  ],
+  "cross_tenant_grants": 24,
+  "lint_findings": 4,
+  "examples": [
+   {
+    "tenant_role": "tenant-a",
+    "action": [
+     "secretsmanager:GetSecretValue"
+    ],
+    "resource": "*"
+   },
+   {
+    "tenant_role": "tenant-b",
+    "action": [
+     "secretsmanager:GetSecretValue"
+    ],
+    "resource": "*"
+   },
+   {
+    "tenant_role": "tenant-c",
+    "action": [
+     "secretsmanager:GetSecretValue"
+    ],
+    "resource": "*"
+   }
+  ]
+ },
+ "scoped": {
+  "matrix": [
+   [
+    4,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    4,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    4,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    4
+   ]
+  ],
+  "cross_tenant_grants": 0,
+  "lint_findings": 0,
+  "examples": []
+ }
+}

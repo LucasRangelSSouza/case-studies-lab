@@ -1,0 +1,16 @@
+{
+ "conversion": {
+  "conversion_at_10": 0.692,
+  "incidence_at_10": 0.779,
+  "categories_at_10": 2.48,
+  "popcorn_share_at_10": 0.707,
+  "non_popcorn_hits_per_session": 0.171
+ },
+ "two_stage": {
+  "conversion_at_10": 0.529,
+  "incidence_at_10": 0.63,
+  "categories_at_10": 5.01,
+  "popcorn_share_at_10": 0.3,
+  "non_popcorn_hits_per_session": 0.329
+ }
+}
