@@ -22,3 +22,19 @@ Each folder has a `figures.py` that regenerates the article's figures: `python <
 Requirements: Python 3.11, `numpy`, `matplotlib`, `scikit-learn` (stockpile and parts only).
 
 The articles are on [lucas.rangeltech.net/articles](https://lucas.rangeltech.net/articles).
+
+<!-- articles:start -->
+## Articles
+
+- [How to measure stockpile volume with drone photos](https://lucas.rangeltech.net/articles/h1-measure-stockpile-volume-drone-photos/)
+- [Why your recommender only shows best-sellers](https://lucas.rangeltech.net/articles/h2-recommender-only-shows-best-sellers/)
+- [How to monitor ML models in production](https://lucas.rangeltech.net/articles/h3-monitor-ml-models-in-production/)
+- [A two-stage recommender for grocery e-commerce](https://lucas.rangeltech.net/articles/h4-two-stage-recommender-grocery/)
+- [How to find interchangeable parts with AI search](https://lucas.rangeltech.net/articles/h5-interchangeable-parts-ai-search/)
+- [CrewAI vs Agno vs AutoGen: which one for a chat product?](https://lucas.rangeltech.net/articles/h6-crewai-vs-agno-vs-autogen/)
+- [Will we hit the target this month? Forecasting with AI agents](https://lucas.rangeltech.net/articles/h8-forecasting-with-ai-agents/)
+- [When only one of your AI agents needs an LLM](https://lucas.rangeltech.net/articles/h9-only-one-agent-needs-an-llm/)
+- [Fixing accessibility issues with AI agents](https://lucas.rangeltech.net/articles/h10-accessibility-fixes-with-ai-agents/)
+- [Multi-tenant AI on AWS: keeping each client isolated](https://lucas.rangeltech.net/articles/h11-multi-tenant-ai-on-aws/)
+- [Migrating legacy code with spec-driven AI](https://lucas.rangeltech.net/articles/h12-migrating-legacy-code-spec-driven/)
+<!-- articles:end -->
