@@ -1,7 +1,0 @@
-[
- {"id": "Q1", "text": "My name is Ana, I work as an AI analyst, and I like pizza and technical reading.", "tests": "stores user facts, answers as small talk", "expects": "greets by name, routes to the general agent"},
- {"id": "Q2", "text": "What is my name?", "tests": "conversation memory", "expects": "Ana"},
- {"id": "Q3", "text": "What is my job?", "tests": "memory, and not routing a personal question to SQL", "expects": "AI analyst"},
- {"id": "Q4", "text": "Which employee in the HR database has been with the company longest?", "tests": "routing to the SQL agent without a trigger word", "expects": "the employee with the earliest hire_date"},
- {"id": "Q5", "text": "And the shortest?", "tests": "a follow-up that only makes sense with Q4 in context", "expects": "the employee with the latest hire_date"}
-]

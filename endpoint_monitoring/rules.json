@@ -1,8 +1,0 @@
-[
- {"name": "mean latency > 200 ms (the naive rule)", "metric": "mean_ms", "window_min": 15, "op": ">", "threshold": 200},
- {"name": "P90 latency > 300 ms", "metric": "p90_ms", "window_min": 15, "op": ">", "threshold": 300},
- {"name": "RPM > 300 (overload)", "metric": "rpm", "window_min": 5, "op": ">", "threshold": 300},
- {"name": "RPM == 0, no quiet window", "metric": "rpm", "window_min": 10, "op": "==", "threshold": 0},
- {"name": "RPM == 0, quiet 00:00-10:00", "metric": "rpm", "window_min": 10, "op": "==", "threshold": 0,
-  "quiet_minutes_of_day": [0, 600]}
-]
